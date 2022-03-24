@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Questrial', sans-serif;
+    font-size: 14px;
+}
+
+
+.header {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.header,.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.logo {
+    cursor: pointer;
+    padding: 0;
+}
+
+.menu-item {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #0D29BD;
+    opacity: 0.6;
+}
+
+.menu-item:hover {
+    opacity: 1;
+    border-bottom: 4px solid #0D29BD;
+}
+
+.btn {
+    background-color: #0D29BD;
+    color: #fff;
+}
+
+.active {
+    opacity: 1;
+    border-bottom: 4px solid #0D29BD;
+}
+
+
+.profile-post {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.comment-post {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+
+}
+
+.image-profile img,.image-profile {
+    border-radius: 50%;
+    background-color: rgb(204, 203, 203);
+   
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin: auto;
+}
+
+.form-comment {
+    display: flex;
+    flex-direction: column;
+}
+
+/* profile */
+
+.cover {
+    margin: auto;
+    height: 200px;
+    border-radius: 5px;
+    background-color: #b3bbe7;
+}
+.fa-ellipsis-h{
+    
+    cursor: pointer;
+}
+.profile_user {
+    display: flex;
+   
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.profile_name{
+    font-weight: bold;
+    line-height: 0.48;
+    margin-top: 10px;
+    /* padding-top: 5px; */
+}
+
+.profile-menu-profile {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    margin-top: 130px;
+    margin-left: 20px;
+}
+
+.post-header {
+    background-color: #0D29BD;
+    color: #fff;
+}
+
+.post-footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* login */
+
+
+.h1{
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    width: 550px;
+    
+}
+.titleLogin{
+    font-size: 60px;
+    margin-bottom: 5px;
+    color: #1877f2;
+}
+.praLogin{
+    font-size: 30px;
+}
+.main-form{
+    position: absolute;
+    background-color: #ffff;
+    width: 400px;
+    height: 500px;
+    left: 55%;
+    top: 15%;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 9px rgb(164, 163, 240),
+                -1px -1px 5px rgb(164, 163, 240);
+}
+.main-input{
+    margin: 15px;
+    margin-top: 30px;
+    padding: 15px;
+    width: 93%;
+    background-color: #ffff;
+    outline: none;
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 5px;
+    font-size: 15px; 
+      
+}
+.main-input:focus{
+    border: 1px solid #adc4e4;
+    box-shadow: 1px 1px 1px #76adf5,
+                -1px -1px 1px #1877f2;
+}
+.login-btn{
+   
+    margin: 10px ;
+    padding: 15px;
+    width: 95%;
+    border-radius: 5px;
+    background-color: #306bb8;
+    color: #ffff;
+    font-size: 20px;
+    border: none;
+
+}
+.p{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 50px;
+    border-bottom: 1px solid rgb(184, 184, 184) ;
+    margin: 20px;
+    background: none;
+}
+
+.createAcount{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 95px;
+    width: 50%;
+    
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #2aaa10;
+    border-radius: 5px;
+}
+.btn-createAcount{
+    text-decoration: none;
+    background: none;
+    color: #ffff;
+    font-size: 17px;
+    
+}
+
+/* sign up */
+
+
+.modal{
+    position: absolute;
+    top: 10%;
+    width: 90%;
+}
+h1{
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    width: 550px;
+    
+    
+}
+.title{
+    font-size: 60px;
+    margin-bottom: 5px;
+    color: #1877f2;
+}
+.pra{
+    position: absolute;
+    font-size: 30px;
+    top:53%;
+    left: 10%;
+}
+.modal-signup p{
+    padding: 5px;
+}
+.modal-signup{
+    position: absolute;
+    width: 100%;
+    left: 30%;
+    max-width: 25%;
+    margin:  auto;
+    height:450px;
+    margin-top: 100px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 9px rgb(164, 163, 240),
+                -1px -1px 5px rgb(164, 163, 240);
+}
+
+.modal-signup-heading{
+    
+    width: 100%;
+    margin-top: 5px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    color: #1877f2;
+}
+.modal-signup-heading .modal-signup-name{
+    
+    font-size: 30px;
+    font-weight: bold;
+}
+.modal-signup-heading .modal-signup-child-name{
+    
+    font-size: 17px;
+    margin-top: 5px;
+}
+.modal-signup-name{
+    
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between
+}
+.modal-signup-name input[type=text]{
+    
+    width: 100%;
+    padding:8px;
+    font-size: 17px;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+.modal-signup-email{
+    
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+.modal-signup-email input[type=email]{
+    
+    width: 100%;
+    padding:8px;
+    font-size: 17px;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+.modal-signup-password{
+    
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    
+}
+.modal-signup-password input[type=password]{
+    
+    width: 100%;
+    padding:8px;
+    font-size: 17px;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+.modal-gender{
+    
+   width: 100%;
+   margin-top: 10px;
+   display: flex;
+   align-items: center; 
+}
+
+.modal-gender-choice{
+   
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+.modal-gender-name{
+    
+     width: 32%;
+     border: 1px solid #ccc;
+     margin-right: 5px;
+     padding: 5px;
+     border-radius: 5px;
+     font-size: 17px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.modal-signup-terms{
+    width: 100%;
+    margin-top: 15px; 
+    font-size: 12px;
+}
+
+.modal-signup-button{
+    
+    width: 100%;
+    max-width: 200px;
+    margin: auto;
+    margin-top: 20px;
+}
+.modal-signup-button button{ 
+    
+    width: 100%;
+    padding: 10px;
+    background-color:#32cd32;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;  
+}
+
+
+/* comment_view */
+
+.box-comment{
+    background-color: rgb(228, 228, 228);
+    border: none;
+    box-shadow: none;
+    border-radius: 10px;
+}
+.text-comment{
+    margin-left:25px;
+    margin-top: -30px;
+}
+
+
+/* validation */
+.error{
+    background: #f2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 93%;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.errorsignup{
+    background: #f2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+    /* margin-left: 15px; */
+}
